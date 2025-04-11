@@ -169,8 +169,43 @@ console.log(typeof year);
 // console.log(n)
 
 
-console.log(Boolean(0));
-console.log(Boolean(''));
-console.log(Boolean(undefined));
-console.log(Boolean('jonas'));
-console.log(Boolean({}));
+// console.log(Boolean(0));
+// console.log(Boolean(''));
+// console.log(Boolean(undefined));
+// console.log(Boolean('jonas'));
+// console.log(Boolean({}));
+
+
+// let money = 12;
+// if(money){
+//     console.log("Dont spend it all");
+// }
+// else {
+//     console.log("You should get a job")
+// }
+
+// let height;
+// if(height){
+//     console.log("Height is defined")
+// }
+// else {
+//     console.log("Height is not undefined")
+// }
+
+
+let age = 18;
+if(age === 18) console.log('You are adult')
+
+
+let favNumber = Number(prompt("Enter your fav number: "));
+console.log(favNumber);
+console.log(typeof favNumber);
+if (favNumber === 23) {
+    console.log("23 is very cool number");
+}
+else if (favNumber === 7) {
+    console.log("7 is very cool number");
+}
+else {
+    console.log("Number is not 23 or 7");
+}
