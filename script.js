@@ -193,19 +193,43 @@ console.log(typeof year);
 // }
 
 
-let age = 18;
-if(age === 18) console.log('You are adult')
+// let age = 18;
+// if(age === 18) console.log('You are adult')
 
 
-let favNumber = Number(prompt("Enter your fav number: "));
-console.log(favNumber);
-console.log(typeof favNumber);
-if (favNumber === 23) {
-    console.log("23 is very cool number");
+// let favNumber = Number(prompt("Enter your fav number: "));
+// console.log(favNumber);
+// console.log(typeof favNumber);
+// if (favNumber === 23) {
+//     console.log("23 is very cool number");
+// }
+// else if (favNumber === 7) {
+//     console.log("7 is very cool number");
+// }
+// else {
+//     console.log("Number is not 23 or 7");
+// }
+
+
+// const hasDriverLicense = true;
+// const hasGoodVision = false;
+
+// console.log(hasDriverLicense && hasGoodVision)
+// console.log(hasDriverLicense || hasGoodVision)
+
+// Dolphins and Koalas
+// tasks 1
+let scoreDolphins = Number(prompt("Enter Dolphins score: "));
+let scoreKoalas = Number(prompt("Enter Koalas score: "));
+
+if (scoreDolphins > scoreKoalas){
+    console.log("Dolphins win the trophy");
 }
-else if (favNumber === 7) {
-    console.log("7 is very cool number");
+
+else if (scoreDolphins < scoreKoalas) {
+    console.log("Koalas win the trophy");
 }
-else {
-    console.log("Number is not 23 or 7");
+
+else if (scoreDolphins === scoreKoalas) {
+    console.log("Koalas win the trophy");
 }
