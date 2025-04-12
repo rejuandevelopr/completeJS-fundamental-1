@@ -219,17 +219,118 @@ console.log(typeof year);
 
 // Dolphins and Koalas
 // tasks 1
-let scoreDolphins = Number(prompt("Enter Dolphins score: "));
-let scoreKoalas = Number(prompt("Enter Koalas score: "));
+// let scoreDolphins = Number(prompt("Enter Dolphins score: "));
+// let scoreKoalas = Number(prompt("Enter Koalas score: "));
 
-if (scoreDolphins > scoreKoalas){
-    console.log("Dolphins win the trophy");
+// if (scoreDolphins > scoreKoalas){
+//     console.log("Dolphins win the trophy");
+// }
+
+// else if (scoreDolphins < scoreKoalas) {
+//     console.log("Koalas win the trophy");
+// }
+
+// // else if (scoreDolphins === scoreKoalas) {
+// //     console.log("Koalas win the trophy");
+// }
+
+
+// const day = 'friday';
+
+// switch (day) {
+//     case 'monday':
+//         console.log("Plan course structure");
+//         console.log("Go to coding meetup");
+//         break;
+//     case 'tuesday':
+//         console.log("Gym day");
+//         break;
+//     case 'wednesday':
+//     case 'thursday':
+//         console.log("Write code example");
+//         break;
+//     case 'friday':
+//     case 'saturday':
+//         console.log("Prepare theory");
+//         break;
+//     case 'sunday':
+//         console.log("Enjoy the weeknd");
+//         break;
+//     default:
+//         console.log("Not a valid day");
+// }
+
+
+// const day = "saturday";
+
+// if(day === "monday"){
+//     console.log("Plan course structure");
+//     console.log("Go to coding meetup");
+// }
+
+// else if(day === "tuesday"){
+//     console.log("Gym day");
+// }
+
+// else if(day === "wednesday" || day === "thursday"){
+//     console.log("Write code example");
+// }
+
+// else if(day === "friday" || day === "saturday"){
+//     console.log("Prepare theory");
+// }
+
+// else if(day === "sunday"){
+//     console.log("Enjoy the weeknd");
+// }
+
+// else {
+//     console.log("Not a valid day");
+// }
+
+
+// Conditional operator
+
+// const age = 22;
+// // age >= 18 ? console.log("I like to drink wine") : 
+// // console.log("I like to drink water")
+
+// const drink = age >= 18 ? 'Wine' : 'Water';
+// console.log(drink)
+
+
+// let drink2;
+// if(age >= 18){
+//     drink2 = 'Wine';
+// }
+// else {
+//     drink2 = 'Water';
+// }
+// console.log(drink2);
+// console.log(`I like to drink ${age >= 18 ? 'Wine' : 'Water'}`)
+
+
+// Coding Exercise 4
+const bill = 275;
+let tip;
+// let calculate;
+
+// Task 1
+if(bill <= 300 && bill >= 50){
+    tip = 15/100;
+    calculate = `${bill + (bill * tip)}`  
+} 
+
+else {
+    tip = 20/100;
+    calculate = `${bill + (bill * tip)}` 
 }
 
-else if (scoreDolphins < scoreKoalas) {
-    console.log("Koalas win the trophy");
-}
+console.log(calculate);
 
-else if (scoreDolphins === scoreKoalas) {
-    console.log("Koalas win the trophy");
-}
+tip = bill <= 300 && bill >= 50 ? bill * 15/100 : bill * 20/100;
+console.log(tip)
+
+
+// Task 2
+console.log(`The bill was 275, the tip was ${tip}, and the total value ${bill + tip}`)
